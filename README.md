@@ -20,7 +20,7 @@ Example
 
 Suppose we want to list some events that happened in October 2000. We can get a list of events from Wikipedia page http://en.wikipedia.org/wiki/October_2000 or we can compile events ourselves from pages http://en.wikipedia.org/wiki/October_1 , http://en.wikipedia.org/wiki/October_2 , ...
 
-Let's follow the second approach where we access 31 wikipedia pages corresponding to each day of October. (It seems like we can get more events that way.) Below is a code to do this with 5 threads using paralleldo. 
+Let's follow the second approach where we access 31 wikipedia pages corresponding to each day of October. (It seems like we can get more events this way.) Below is a code to do this with 5 threads using paralleldo. 
 
 ```ruby
 require_relative "paralleldo"
