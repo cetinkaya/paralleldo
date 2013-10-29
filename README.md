@@ -9,9 +9,10 @@ Usage
 
 ```
 require_relative "paralleldo"
-array_of_results = parallel(number_of_threads, array_of_things) do |thread_no, thing|
-  # do stuff with thing in thread numbered thread_no
-  # return a result 
+array_of_outputs = parallel(number_of_threads, array_of_inputs) do |thread_no, input|
+  # do stuff with input in thread #thread_no
+  # calculate output from input
+  # return output
 end
 ```
 
