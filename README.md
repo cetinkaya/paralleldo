@@ -1,7 +1,7 @@
 paralleldo
 ==========
 
-Paralleldo provides a simple ruby function named "parallel" to execute tasks in parallel (?) through a number of threads. (? : Execution may or may not be actually in parallel depending on the type threads of the ruby implementation you use.)
+Paralleldo provides a simple ruby function named "parallel" to execute tasks in parallel (?) through a number of threads. (? : Execution may or may not be actually in parallel depending on the type of threads in the ruby implementation you use.)
 
 
 Usage
